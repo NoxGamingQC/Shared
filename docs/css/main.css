@@ -6,10 +6,7 @@ h1, h2, h3, h4, h5, h6, p, li {
   color: #252525
 }
 
-p, a, li {
+btn-default btn-lg {
   font-size: 36px !important;
-} 
-
-btn-default {
   border: 1px solid #252525;
 } 
