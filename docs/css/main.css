@@ -10,3 +10,7 @@ h1, h2, h3, h4, h5, h6, p, li {
   font-size: 36px !important;
   border: 1px solid #252525 !important;
 } 
+
+.mt-auto {
+  margin-top: auto !important;
+}
