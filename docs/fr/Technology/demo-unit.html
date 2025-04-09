@@ -31,18 +31,83 @@
             </div>
         </nav>
         <div class="content" style="margin-top:5%;">
-           <div class="container-fluid">
-               <h1>Unité de démonstration</h1>
-               <hr />
-               <div class="accordion" id="OS">
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#windows" aria-expanded="true" aria-controls="windows" style="font-size:26px !important;">
+        <div class="container-fluid">
+            <h1>Unité de démonstration</h1>
+            <hr />
+            <div class="accordion" id="OS">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#amazon" aria-expanded="true" aria-controls="amazon" style="font-size:26px !important;">
+                            Amazon
+                        </button>
+                    </h2>
+                    <div id="amazon" class="accordion-collapse collapse show" data-bs-parent="#OS">
+                        <div class="accordion-body">
+                            <ol>
+                                <li>Configurer l'appareil, sans lier de compte.</li>
+                                <li>Dans la barre de recherche, tapez <code>;demo</code>.</li>
+                                <li>Une notification apparaîtra, vous demandant si vous voulez mettre l'appareil en mode démonstrateur.</li>
+                                <li>Appuyez deçu.</li>
+                                <li>Suivez les étapes à l'écran.</li>
+                            </ol>
+                            <br />
+                            <i>N.B. Ceci fonctionne seulement avec les tablettes. Tous les autres produit amazon demanderons l'assistance du service pour entreprise.</i>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#chromeOS" aria-expanded="true" aria-controls="chromeOS" style="font-size:26px !important;">
+                            Google ChromeOS
+                        </button>
+                    </h2>
+                    <div id="chromeOS" class="accordion-collapse collapse" data-bs-parent="#OS">
+                        <div class="accordion-body">
+                            <div class="accordion" id="chromeIsEnable">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#chromeEnable" aria-expanded="true" aria-controls="chromeEnable" style="font-size:26px !important;">
+                                            Activer le mode démonstration
+                                        </button>
+                                    </h2>
+                                    <div id="chromeEnable" class="accordion-collapse collapse show" data-bs-parent="#chromeIsEnable">
+                                        <div class="accordion-body">
+                                            <ol>
+                                                <li>Appuyez sur <code>CTRL+Alt+D</code> alors que vous êtes sur l'écran de configuration</li>
+                                                <li>Suivez les étapes</li>
+                                            </ol>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#chromeDisable" aria-expanded="true" aria-controls="chromeDisable" style="font-size:26px !important;">
+                                            Désactiver le mode démonstration
+                                        </button>
+                                    </h2>
+                                    <div id="chromeDisable" class="accordion-collapse collapse" data-bs-parent="#chromeIsEnable">
+                                        <div class="accordion-body">
+                                            <ol>
+                                                <li>Appuyez sur <code>ESC+Refresh+Power</code></li>
+                                                <li>Mettez l'appareil en mode développeur, ceci formattera l'appareil. (ou appuyez sur <code>CTRL+D</code>)</li>
+                                                <li>Remettez en mode normal  (ou réappuyez sur <code>CTRL+D</code>)</li>
+                                                <li>Redémarrez</li>
+                                            </ol>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#windows" aria-expanded="true" aria-controls="windows" style="font-size:26px !important;">
                             Microsoft Windows
-                          </button>
-                        </h2>
-                        <div id="windows" class="accordion-collapse collapse show" data-bs-parent="#OS">
-                          <div class="accordion-body">
+                        </button>
+                    </h2>
+                    <div id="windows" class="accordion-collapse collapse" data-bs-parent="#OS">
+                        <div class="accordion-body">
                             <ol>
                                 <li>Ouvrez <code>ms-settings:</code></li>
                                 <li>Ouvrez <code>System</code></li>
@@ -52,62 +117,25 @@
                             </ol>
                             <br />
                             <i>N.B. Mot de passe pour éditez le mode démo: <code>trs10</code></i>
-                          </div>
-                        </div>
-                    </div>
-                      <div class="accordion-item">
-                        <h2 class="accordion-header">
-                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#chromeOS" aria-expanded="true" aria-controls="chromeOS" style="font-size:26px !important;">
-                            ChromeOS de Google
-                          </button>
-                        </h2>
-                        <div id="chromeOS" class="accordion-collapse collapse" data-bs-parent="#OS">
-                          <div class="accordion-body">
-                            <div class="accordion" id="chromeIsEnable">
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header">
-                                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#chromeEnable" aria-expanded="true" aria-controls="chromeEnable" style="font-size:26px !important;">
-                                        Activer le mode démonstration
-                                      </button>
-                                    </h2>
-                                    <div id="chromeEnable" class="accordion-collapse collapse show" data-bs-parent="#chromeIsEnable">
-                                      <div class="accordion-body">
-                                        <ol>
-                                            <li>Appuyez sur <code>CTRL+Alt+D</code> alors que vous êtes sur l'écran de configuration</li>
-                                            <li>Suivez les étapes</li>
-                                        </ol>
-                                      </div>
-                                    </div>
-                                </div>
-                                 <div class="accordion-item">
-                                    <h2 class="accordion-header">
-                                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#chromeDisable" aria-expanded="true" aria-controls="chromeDisable" style="font-size:26px !important;">
-                                        Désactiver le mode démonstration
-                                      </button>
-                                    </h2>
-                                    <div id="chromeDisable" class="accordion-collapse collapse" data-bs-parent="#chromeIsEnable">
-                                      <div class="accordion-body">
-                                        <ol>
-                                            <li>Appuyez sur <code>ESC+Refresh+Power</code></li>
-                                            <li>Mettez l'appareil en mode développeur, ceci formattera l'appareil. (ou appuyez sur <code>CTRL+D</code>)</li>
-                                            <li>Remettez en mode normal  (ou réappuyez sur <code>CTRL+D</code>)</li>
-                                            <li>Redémarrez</li>
-                                        </ol>
-                                      </div>
-                                    </div>
-                                </div>
-                    </div>
-                          </div>
                         </div>
                     </div>
                 </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#samsung" aria-expanded="true" aria-controls="samsung" style="font-size:26px !important;">
+                            Samsung
+                        </button>
+                    </h2>
+                    <div id="samsung" class="accordion-collapse collapse" data-bs-parent="#OS">
+                        <div class="accordion-body">
+                            <p>Allez au <a href="https://www.retailsamsung.com">retailsamsung.com</a> pour télécharger les fichiers nécessaire et suivre les instructions du manuel fourni (Compte marchand et approbation requise)</p>
+                            <i>Mot de passe: <code>Reta!l-9102</code></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
                 
-                   <hr />
-                <h2>Samsung</h2>
-                <p>Head to <a href="https://www.retailsamsung.com">retailsamsung.com</a> to download the appropriate files and follow the instructions (Retail account and approbation is required)</p>
-                <h4>Demo password</h4>
-                <p>Reta!l-9102</p>
-                <hr />
+                
                 <h2>Apple</h2>
                 <ol>
                     <li>Open <a href="https://demounit.apple.com/">demounit.apple.com</a> or install the app <a href="https://demounit.apple.com/help/Apps/DemoUnit">DemoUnit</a></li>
@@ -125,9 +153,7 @@
                     <li>Tap 3 times with 2 fingers in the middle of the screen</li>
                 </ol>
                 <hr />
-                <h2>Amazon tablet</h2>
-                <p>Do the initial setting without amazon account and tap ;demo in the search bar. Tap on thr notification that will appear and follow instruction.</p>
-             </div>
+            </div>
         </div>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     </body>
