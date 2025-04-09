@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="{{ app()->getLocale() }}" style="overflow-x:hidden;margin:0px;padding:0px;">
+    <head>
+        <meta property='og:title' content="NoxGamingQC's branding" />
+        <meta charset="utf-8">
+        <meta name="description" property='og:description' content="@yield('description', 'NoxGamingQC\'s branding')">
+        <meta property='og:image:width' content='500' />
+        <meta property='og:image:height' content='500' />
+        <meta property="og:type" content='website' />
+        <meta name="author" content="NoxGamingQC">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="csrf-token" content="{{ csrf_token() }}">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap" rel="stylesheet">
+    </head>
+    <body style="overflow-x:hidden;margin:0px;padding:0px;">
+        <div style="width: 50%; float:left;background-color:#F5F5F5;text-align: -webkit-center;">
+            <h1 style="color:#252525; padding-top:10%; min-height:125px;max-height:125px;font-family: 'Raleway', sans-serif;">
+                NoxGamingQC's Brand color
+                <br/>
+                <span style="font-family: 'Ms Madi', cursive;">Font family: Ms Madi</span>
+            </h1>
+
+            <div class="white rect" style="background-color: #800020;color:#F5F5F5;">
+                <h1 class="text" style="color:#F5F5F5;">Primary | Primaire</h1>
+                <h3 class="name" style="color:#F5F5F5;">Burgundy | Bourgogne</h3>
+                <span class="hex" style="color:#F5F5F5;">#800020</span>
+            </div>
+            <div class="white rect" style="background-color: #32CD32;color:#252525;">
+                <h1 class="text" style="color:#252525;">Success | Succès</h1>
+                <h3 class="name" style="color:#252525;">Lime green | Vert citron</h3>
+                <span class="hex" style="color:#252525;">#32CD32</span>
+            </div>
+            <div class="white rect" style="background-color: #FFFC00;color:#252525;">
+                <h1 class="text" style="color:#252525;">Warning | Attention</h1>
+                <h3 class="name" style="color:#252525;">Electric yellow | Jaune électrique</h3>
+                <span class="hex" style="color:#252525;">#FFFC00</span>
+            </div>
+            <div class="white rect" style="background-color: #CD1C18;color:#F5F5F5;">
+                <h1 class="text" style="color:#F5F5F5;">Critical | Critique</h1>
+                <h3 class="name" style="color:#F5F5F5;">Chili red | Piment rouge</h3>
+                <span class="hex" style="color:#F5F5F5;">#CD1C18</span>
+            </div>
+            <div class="white rect" style="background-color: #80DAEB;color:#252525;">
+                <h1 class="text" style="color:#252525;">Info</h1>
+                <h3 class="name" style="color:#252525;">Sky blue | Bleu ciel</h3>
+                <span class="hex" style="color:#252525;">#80DAEB</span>
+            </div>
+            <div class="white rect" style="background-color: #F28500;color:#F5F5F5;">
+                <h1 class="text" style="color:#F5F5F5;">Orange</h1>
+                <h3 class="name" style="color:#F5F5F5;">Tangerine</h3>
+                <span class="hex" style="color:#F5F5F5;">#F28500</span>
+            </div>
+            
+            <div style="padding:25px;">
+                <h1 class="name" style="color:#252525;text-align: left;">White | Blanc</h1>
+                <h3 class="name" style="color:#252525;text-align: left;">White smoke | Fumée blanche</h3>
+                <p class="hex" style="color:#252525;text-align: left;">#F5F5F5</p>
+            </div>
+         </div>
+         <div style="width: 50%; float:right;background-color:#252525;text-align: -webkit-center;">
+            <h1 style="color:#F5F5F5; padding-top:10%;min-height:125px;max-height:125px;font-family: 'Raleway', sans-serif;">
+                Couleur de la marque NoxGamingQC
+                <br />
+                <span style="font-family: 'Ms Madi', cursive;">Famille de charactère: Ms Madi</span>
+            </h1>
+            <div class="black rect" style="background-color: #800020;color:#F5F5F5;">
+                <h1 class="text" style="color:#F5F5F5;">Primary | Primaire</h1>
+                <h3 class="name" style="color:#F5F5F5;">Burgundy | Bourgogne</h3>
+                <span class="hex" style="color:#F5F5F5;">#800020</span>
+            </div>
+            <div class="black rect" style="background-color: #32CD32;color:#252525;">
+                <h1 class="text" style="color:#252525;">Success | Succès</h1>
+                <h3 class="name" style="color:#252525;">Lime green | Vert citron</h3>
+                <span class="hex" style="color:#252525;">#32CD32</span>
+            </div>
+            <div class="black rect" style="background-color: #FFFC00;color:#252525;">
+                <h1 class="text" style="color:#252525;">Warning | Attention</h1>
+                <h3 class="name" style="color:#252525;">Electric yellow | Jaune électrique</h3>
+                <span class="hex" style="color:#252525;">#FFFC00</span>
+            </div>
+            <div class="black rect" style="background-color: #CD1C18;color:#F5F5F5;">
+                <h1 class="text" style="color:#F5F5F5;">Critical | Critique</h1>
+                <h3 class="name" style="color:#F5F5F5;">Chili red | Piment rouge</h3>
+                <span class="hex" style="color:#F5F5F5;">#CD1C18</span>
+            </div>
+            <div class="black rect" style="background-color: #80DAEB;color:#252525;">
+                <h1 class="text" style="color:#252525;">Info</h1>
+                <h3 class="name" style="color:#252525;">Sky blue | Bleu ciel</h3>
+                <span class="hex" style="color:#252525;">#80DAEB</span>
+            </div>
+            <div class="black rect" style="background-color: #F28500;color:#F5F5F5;">
+                <h1 class="text" style="color:#F5F5F5;">Orange</h1>
+                <h3 class="name" style="color:#F5F5F5;">Tangerine</h3>
+                <span class="hex" style="color:#F5F5F5;">#F28500</span>
+            </div>
+            <div style="padding:25px;">
+                <h1 class="name" style="color:#F5F5F5;text-align: left;">Black | Noir</h1>
+                <h3 class="name" style="color:#F5F5F5;text-align: left;">Nero</h3>
+                <p class="hex" style="color:#F5F5F5;text-align: left;">#252525</p>
+            </div>
+         </div>
+    </body>
+    <style>
+        .rect {
+            width:75%;
+            max-width:75%;
+            min-height:100%;
+            max-height:100%;
+            text-align: left;
+            vertical-align: bottom;
+            border-radius: 10px;
+            margin:25px;
+            padding:25px;
+        }
+        .black {
+            border: 2px solid #F5F5F5;
+        }
+        .white {
+            border: 2px solid #252525;
+        }
+        .text {
+            font-family: "Raleway", sans-serif;
+            padding-left:25px;
+            margin-bottom: 5px !important;
+            padding-top:125px;
+        }
+        .name {
+            font-family: "Raleway", sans-serif;
+            padding-left:25px;
+            margin-bottom: 10px;
+            margin-top:0px;
+        }
+        .hex {
+            font-family: "Raleway", sans-serif;
+            padding-left:25px;
+        }
+        
+    </style>
+</html>
