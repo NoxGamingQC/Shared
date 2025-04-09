@@ -1,3 +1,3 @@
 # Branding
 
-- [Color palette](color.md)
+- [Color palette](color.html)
