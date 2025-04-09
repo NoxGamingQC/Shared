@@ -1,4 +1,3 @@
-<!doctype html>
 <html lang="{{ app()->getLocale() }}" style="overflow-x:hidden;margin:0px;padding:0px;">
     <head>
         <meta property='og:title' content="NoxGamingQC's branding" />
