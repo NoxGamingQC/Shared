@@ -20,7 +20,7 @@ footer {
 
 body {
     position: relative;
-    min-height: 98dvh;
+    min-height: 97dvh;
 }
 
 .content {
@@ -31,7 +31,7 @@ footer {
     position: absolute;
     bottom: 0px;
     width: 100%;
-    height: 25%;
+    height: 30%;
     height: auto;
     padding: 5%;
     margin:0px !important;
