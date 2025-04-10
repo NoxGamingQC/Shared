@@ -36,3 +36,6 @@ footer {
     padding: 5%;
     margin:0px !important;
 }
+script {
+  visibility:hidden;
+}
