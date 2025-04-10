@@ -25,7 +25,6 @@ body {
 
 .content {
     padding-bottom: 2.5em;
-    position:relative;
     z-index:2;
 }
 
@@ -38,6 +37,9 @@ footer {
     margin:0px !important;
 }
 
+.absolute {
+  position:absolute !important
+}
 script {
   visibility:hidden;
 }
