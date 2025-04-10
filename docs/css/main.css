@@ -29,7 +29,7 @@ body {
 }
 
 footer {
-    position: relative;
+    position: absolute;
     bottom: 0px;
     width: 100%;
     height: 30%;
@@ -37,9 +37,6 @@ footer {
     margin:0px !important;
 }
 
-.absolute {
-  position:absolute !important
-}
 script {
   visibility:hidden;
 }
