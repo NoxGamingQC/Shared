@@ -40,3 +40,6 @@ footer {
 script {
   visibility:hidden;
 }
+.navbar-brand {
+  font-family: 'Ms Madi', cursive;
+}
