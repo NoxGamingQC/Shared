@@ -1,6 +1,7 @@
 html, body  {
   background-color: #F5F5F5;
   margin:0px;
+  font-size: 20px;
 }
 
 h1, h2, h3, h4, h5, h6, p, li {
@@ -44,8 +45,4 @@ script {
   font-family: 'Ms Madi', cursive;
   font-weight: bold;
   font-size: 20px;
-}
-
-p,a,li {
-   font-size: 20px;
 }
