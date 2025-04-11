@@ -43,4 +43,9 @@ script {
 .navbar-brand {
   font-family: 'Ms Madi', cursive;
   font-weight: bold;
+  font-size: 20px;
+}
+
+p,a,li {
+   font-size: 20px;
 }
