@@ -8,6 +8,10 @@ h1, h2, h3, h4, h5, h6, p, li {
   color: #252525;
 }
 
+h2 {
+  font-size:48px;
+}
+
 .btn-default, .btn-lg {
   font-size: 36px !important;
   border: 1px solid #252525 !important;
