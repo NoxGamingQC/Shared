@@ -13,3 +13,4 @@ This is just the files that is hosting the live website available @ tools.jimmyb
 À ajouter
 
 [Alarme laptop](https://support.invue.com/hc/en-us/articles/21167209105815-Laptop-AOP-Instructions)
+[Pixel](https://support.invue.com/hc/en-us/articles/26354269580439-OnePOD-Custom-Bracket-Arms-Single-Offest-Arm-DBH640-DBH728)
